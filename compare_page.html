@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Match || Compare Prices</title>
+    <link rel="stylesheet" href="css/compare_page.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+
+  <!-- navbar start -->
+  <header>
+    <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="index.html">Book Match <br> <p>find your perfect read</p></a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+          </ul>
+
+          <div class="search-box">
+            <form id="searchForm" action="search_results_page.html">
+              <input type="text" id="searchInput" placeholder="Search here..." name="q" />
+              <button type="submit"><i class="uil uil-search search-icon"></i></button>
+            </form>
+          </div>
+         </div>
+        </nav>
+    </header>
+      <!-- navbar end -->
+
+    <!-- main content start -->
+    <main>
+      <div class="book-details" id="bookDetails">
+        <!-- Book details will be rendered here -->
+      </div>
+      <hr>
+      
+      <div class="buy-now-section">
+        <h2 class="buy-now">Buy Now</h2>
+        <div class="buy-now-grid" id="retailerGrid">
+          <!-- Retailer information will be rendered here -->
+        </div>
+      </div>
+    </main>
+<script src="js/compare_page.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
