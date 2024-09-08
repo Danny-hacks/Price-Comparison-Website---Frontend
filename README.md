@@ -1,18 +1,16 @@
 # Price-Comparison-Website---Frontend
-**
-Website Description and Overview**
+## **Website Description and Overview**
 
 Book Match is a user-friendly website that offers a wide range of reading options for readers who
 value convenience and diversity. Through this platform, you can easily explore a vast array of
 literature from the comfort of your home. We acquire data through a systematic web scraping
 method. Our web scrapers extract pricing information and additional data related to books from
-various designated websites. Webscraping was streamlined to Romance books to be able to
-properly demonstrate the comparison feature.
+various designated websites. Web scraping was streamlined to Romance books to be able to
+properly demonstrate the comparison feature. 
 
 **Landing Page:**
 The landing page of the Book Match website has an attractive and user-friendly design. It
-features a clean and inviting user interface serving as a welcome page to BookMatch. At the top,
-there is a sleek navigation bar showcasing the Book Match logo and a "Home" link for easy
+features a clean and inviting user interface serving as a welcome page to BookMatch. At the top is a sleek navigation bar showcasing the Book Match logo and a "Home" link for easy
 access to the main page from any section of the site.
 Below the navigation bar, the hero section immediately draws attention with a bold headline,
 "Find and Compare!", encouraging users to explore the application's core functionality. This
@@ -39,8 +37,8 @@ takes the user to the compare_page when clicked.
 To navigate through multiple search results, a pagination control interface is incorporated at the
 bottom of the page. It includes "Previous" and "Next" buttons flanking the current page of the
 search results "page 1" indicator, displaying the current page number.
-**
-Comparison Page:**
+
+**Comparison Page:**
 The Comparison Page is designed to provide users with comprehensive details and options for
 purchasing their chosen book. The page layout begins with a consistent navigation bar featuring
 the Book Match logo and a link back to the Home page, maintaining continuity with the rest of
@@ -59,54 +57,55 @@ users to the specific retailer's website, where they can purchase the book. This
 provides a seamless transition from browsing to purchasing, enhancing user convenience and
 facilitating informed decision-making.
 
-**Technologies Used:**
+### **Technologies Used:**
 The website Book Match was created using a range of technologies to guarantee effectiveness,
 dependability, and a smooth user experience. The platform incorporates web scraping, testing,
 database management, REST API, and frontend development using Java, multithreading,
 Selenium, Spring, Hibernate, JUnit, Express.js, MySQL, HTML, CSS, and JavaScript.
 
-**Frontend Development:**
+**Frontend Development:** <br/>
 **❖ HTML and CSS:** Establish the layout and design of the website, delivering a neat and
-user-friendly interface for users to browse and compare books.
+user-friendly interface for users to browse and compare books. <br/>
 **❖ JavaScript:** Improves interaction on the website, enabling dynamic content updates and
 user participation.
 
-**Backend Development:**
+**Backend Development:** <br/>
 **❖ REST API with Express.js:** Supported by Express.js, a Node.js framework that creates a
 RESTful API, the backend communicates with the MySQL database, effectively
 managing HTTP requests and responses.
 
-**Data Acquisition:**
+**Data Acquisition:** <br/>
 **❖ Java and Multithreading:** Java is utilized for data acquisition, utilizing multithreading for
 simultaneous processing, ensuring efficient and parallel web scraping for rapid data
-retrieval.
+retrieval. <br/>
 **❖ Selenium for Web Scraping:** This tool is used for automated web interactions, allowing
 dynamic content extraction during the web scraping process, and ensuring precise and
 real-time data collection from various online retailers.
-Integration and Database Management:
-**❖ Spring for Integration: **The Spring framework enables seamless integration of web
+
+**Integration and Database Management:** <br/>
+**❖ Spring for Integration:** The Spring framework enables seamless integration of web
 scraping processes, enhancing scalability and maintainability, and ensuring smooth
-coordination between different components.
+coordination between different components. <br/>
 **❖ Hibernate for Database Connectivity:** Hibernate manages connectivity with the MySQL
 database, simplifying data handling by mapping Java objects to database tables and
-streamlining database operations.
+streamlining database operations. <br/>
 **❖ MySQL Database:** Acts as a centralized repository for scraped data, providing a
 consistent and structured source of information. The Java web scraper populates this
-database, maintaining an up-to-date inventory of book information.
+database, maintaining an up-to-date inventory of book information. <br/>
 
-**Testing:**
+**Testing:** <br/>
 **❖ JUnit for Testing Web Scraper:** JUnit is used for unit testing to validate the reliability and
 accuracy of the Java web scraper, ensuring the stability of the codebase and the
-dependability of the web scraping mechanisms.
+dependability of the web scraping mechanisms. <br/>
 **❖ Jest for Testing API Routes and Utilities:** Used to ensure the robustness of the Express.js
 API and comprehensively test routes and utilities, enhancing the overall reliability of the
-backend.
+backend. <br/>
 
-**Data Scraping**
-Data for the Book Match website is scraped from:
-● Dubray Books - https://www.dubraybooks.ie
-● Half Price Books - https://www.hpb.com
-● Owl’s Nest Books - https://owlsnestbooks.com
-● Qbd Books- https://www.qbd.com.au
-● Wordery - https://wordery.com
+**Data Scraping** <br/>
+Data for the Book Match website is scraped from: <br/>
+● Dubray Books - https://www.dubraybooks.ie <br/>
+● Half Price Books - https://www.hpb.com <br/>
+● Owl’s Nest Books - https://owlsnestbooks.com <br/>
+● Qbd Books- https://www.qbd.com.au <br/>
+● Wordery - https://wordery.com <br/>
 ● Water Stones - https://www.waterstones.com
